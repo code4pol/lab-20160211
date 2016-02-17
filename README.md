@@ -8,4 +8,23 @@ Decifra-me, ou devoro-te.
 
 ## Como usar o BASH (terminal do Mac) gerar um CSV a partir dos arquivos coletados:
 
-> grep on_data collect_foradilma-20151216.txt | sed 's/^.*{\"created_at\":\".*\",\"id\":\([0-9]*\),\"id_str\":\".*\",\"text\":\(.*\),\"source\".*\"user\":{\"id\":[0-9]*,\"id_str\":\"[0-9]*\",\"name\":\".*\",\"screen_name\":\(.*\),\"location\".*/\1,\2,\3/' | head -1
+```$ grep on_data data/collect_foradilma-20151216.txt | sed 's/^.*{\"created_at\":\".*\",\"id\":\([0-9]*\),\"id_str\":\".*\",\"text\":\(.*\),\"source\".*\"user\":{\"id\":[0-9]*,\"id_str\":\"[0-9]*\",\"name\":\".*\",\"screen_name\":\(.*\),\"location\".*/\1,\2,\3/'
+```
+
+## Resultado
+
+```677229908473610240,"Movimentos sociais comprados pelo governo, levam suas tropas para apoiar Dilma . S\u00f3 n\u00e3o combinaram com o povo kkkkk muito kkkkk","PastorMalafaia"
+677245711562498048,"Mega Manifesta\u00e7\u00e3o #VemPraRua 13\/03\/16 @lobaoeletrico doe tweet j\u00e1! \u27bc https:\/\/t.co\/SxrhwaQe2T pelo #ForaDilma #ForaPT https:\/\/t.co\/910uBxOi8v","br45ilnocorrupt"
+677246971602710528,"@g1 como vcs sao despresiveis essa midia comprada \u00e9 uma bosta . #ForaDilma #ForaPT .","jefferson_22mau"
+677247058596790272,"@g1 a vers\u00e3o vai mudando. Hj, depois do voto do fachin, teve que admitir q impeachment \u00e9 constitucional. #ForaDilma","gerusasc"
+677240987903762434,"Mega Manifesta\u00e7\u00e3o #VemPraRua 13\/03\/16 @lobaoeletrico doe tweet j\u00e1! \u27bc https:\/\/t.co\/SxrhwaQe2T pelo #ForaDilma #ForaPT https:\/\/t.co\/qbPBxwXsMx","br45ilnocorrupt"
+677247089475256321,"Depois deste voto do min. Fachin, n\u00e3o d\u00e1 mais para dizer que o pedido de #Impeachment \u00e9 golpe, n\u00e3o \u00e9 past\u00e9is?!  #ForaPT #ForaDilma","kamilla_mariah"
+677273804759019520,"Compre na loja virtual Magazine #BrazilNoCorrupt com desconto https:\/\/t.co\/I9crS7otZ8 Siga @lobaoeletrico #ForaDilma https:\/\/t.co\/z5b4IDfzPu","br45ilnocorrupt"
+677294956348874754,"Lula presta s\u00e9rie de depoimentos, incluindo um relacionado \u00e0 Lava-Jato. https:\/\/t.co\/2sfuQg0Odc https:\/\/t.co\/0Opv1dogOM","JornalOGlobo"
+677296146100957188,"Parou meu WhatsApp #ForaDilma","RenatoSalviano"
+677273662853152770,"#Impeachment #ForaDilma #CadeiaLula #ForaPT #VemPraRua #BrasilReal #Basta #RealDemocracia #NoLimitsOnHorizont https:\/\/t.co\/ALseXhb3qV","PanichiRaphael"
+677296146100957188,"Parou meu WhatsApp #ForaDilma","RenatoSalviano"
+677296542043230208,"@Estadao@valor_economico TOTAL FRACASSO!!!!\n#foradilma\n#ForaPtImpeachmentDilma\n#foradilmaforalulaforapt","MorCarlos"
+677295631585697792,"@dilmabr @Ary_AntiPT #CalaBocaMocreia\nQuem te ap\u00f3ia \u00e9 c\u00famplice do \"mensal\u00e3o,\" \"petrol\u00e3o\"...\n#ForaDilma","MariaRitadeC1"
+677280840439721984,"#foraDilma #ForaCunha #FicaUber #FicaWhatsapp #WesleySafadao #EitaFabiola  #jaacabouJessica #Jesuisf\u00e3deStarWars \nresumo hashtaguiano de 2015","samuelmizrahy"
+```
